@@ -19,10 +19,11 @@ const Nav = styled.div`
     overflow: hidden;
 `
 
-const NavI = styled.a`
+//color: ${ props => props.isColored ? props.isColored : 'red' };
 
+const NavI = styled.a`
   float: left;
-  color: #f2f2f2;
+  color:#f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
