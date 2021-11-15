@@ -19,11 +19,11 @@ const Nav = styled.div`
     overflow: hidden;
 `
 
-//color: ${ props => props.isColored ? props.isColored : 'red' };
+//color: ${ props => props.isColored ? props.isColored : 'red' }; window.location.href.indexOf("franky") > -1) { #f2f2f2
 
 const NavI = styled.a`
   float: left;
-  color:#f2f2f2;
+  color: ${(window.location.href.indexOf("movies") > -1) ? '#f2f2f2' : 'red'};
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
