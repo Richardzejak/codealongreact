@@ -11,6 +11,8 @@ export const Navigation = () => {
                 <NavI to="/home">Home</NavI>
 
                 <NavI to="/movies">Movies</NavI>
+
+                <NavI to="/DisplayDataView">Api View</NavI>
             </Nav>
         </div >
     )
